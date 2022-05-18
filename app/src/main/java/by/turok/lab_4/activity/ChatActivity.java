@@ -92,8 +92,7 @@ public class ChatActivity extends BaseActivity {
 
         binding.msgSelectedFile.setOnClickListener(view -> {
             Intent intent = new Intent();
-            //// TODO: 14.05.2022 изменить с пдф на все файлы
-            intent.setType("file/*");
+            intent.setType("application/pdf");
             intent.setAction(intent.ACTION_GET_CONTENT);
             pickFile.launch(intent);
         });
