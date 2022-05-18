@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_dialogs">
+
+    <fragment
+        android:id="@+id/navigation_dialogs"
+        android:name="by.turok.lab_4.ui.dialogs.DialogsFragment"
+        tools:layout="@layout/fragment_dialogs" />
+
+    <fragment
+        android:id="@+id/navigation_users"
+        android:name="by.turok.lab_4.ui.users.UsersFragment"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="by.turok.lab_4.ui.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

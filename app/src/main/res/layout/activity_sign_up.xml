@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/title_registration"
+            android:textColor="@color/blue"
+            android:textSize="34sp" />
+
+        <FrameLayout
+            android:id="@+id/layoutImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/background_image"
+                android:scaleType="centerCrop"
+                app:riv_oval="true" />
+
+            <TextView
+                android:id="@+id/addImageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/label_add_image"
+                android:textSize="@dimen/_10ssp"/>
+
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/emailRegEditText"
+            android:layout_width="295dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="@string/label_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:text="aa@aa.aa" />
+
+        <EditText
+            android:id="@+id/phoneRegEditText"
+            android:layout_width="295dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="@string/label_phone"
+            android:padding="10dp"
+            android:text="+375297777777" />
+
+        <EditText
+            android:id="@+id/firstNameRegEditText"
+            android:layout_width="295dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="@string/label_first_name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:text="aa" />
+
+        <EditText
+            android:id="@+id/lastNameRegEditText"
+            android:layout_width="295dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="@string/label_last_name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:text="aa" />
+
+        <EditText
+            android:id="@+id/dateRegEditText"
+            android:layout_width="295dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:contextClickable="false"
+            android:editable="false"
+            android:hint="@string/label_select_birthday"
+            android:padding="10dp"
+            android:text="21.01.2002" />
+
+        <EditText
+            android:id="@+id/passwordRegEditText"
+            android:layout_width="295dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="@string/label_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:text="aaaaaa" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:animateLayoutChanges="true">
+
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_edit_text"
+                android:text="@string/label_sign_up"
+                android:textAllCaps="false" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

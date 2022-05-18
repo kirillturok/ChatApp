@@ -1,0 +1,54 @@
+<resources>
+    <!--    App name-->
+    <string name="app_name">Chat App</string>
+
+    <!--    Menu titles-->
+    <string name="title_dialogs">Dialogs</string>
+    <string name="title_users">Users</string>
+    <string name="title_profile">Profile</string>
+
+    <!--    SignIn/SignUp labels-->
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_first_name">First name</string>
+    <string name="label_last_name">Last name</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_select_birthday">Select birthday</string>
+    <string name="label_sign_in">Sign in</string>
+    <string name="label_no_account_question">Don\'t you have an account yet?</string>
+    <string name="label_sign_up">Sign up</string>
+    <string name="title_registration">Registration</string>
+    <string name="label_add_image">Add image</string>
+
+    <!-- Profile labels-->
+    <string name="label_email_dots">Email: </string>
+    <string name="label_phone_dots">Phone: </string>
+    <string name="label_birthday_dots">Birthday: </string>
+    <string name="label_change_language">Change language</string>
+    <string name="label_log_out">Log out</string>
+    <string name="label_send_msg">Send message</string>
+
+    <!-- Validation messages-->
+    <string name="msg_validation_email">Invalid email</string>
+    <string name="msg_validation_phone">+375(xx)xxxxxxx</string>
+    <string name="msg_validation_first_name">A-Z,А-Я,max-32</string>
+    <string name="msg_validation_last_name">A-Z,А-Я,max-32</string>
+    <string name="msg_validation_birthday">Select birthday</string>
+    <string name="msg_validation_password">A-Z,0-9,min-6,max-32</string>
+
+    <!-- Toast messages-->
+    <string name="toast_success_sign_up">User has been registered successfully</string>
+    <string name="toast_unable_sign_in">Unable to sign in</string>
+    <string name="toast_failed_image_upload">Failed to upload image</string>
+    <string name="toast_unable_sign_out">Unable to log out</string>
+    <string name="toast_image_uploaded">Image uploaded</string>
+    <string name="toast_image_saved">Image saved</string>
+    <string name="toast_file_saved">File saved</string>
+    <string name="toast_failure_save_file">Failed to save file</string>
+
+    <!-- Chat-->
+    <string name="label_message">Message</string>
+    <string name="label_messages">Messages</string>
+    <string name="label_save">Save</string>
+
+</resources>
